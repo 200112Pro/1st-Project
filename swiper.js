@@ -1,6 +1,6 @@
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 11,
+    spaceBetween: 30,
     loop:true,
     grabCursor:true,
     freeMode: true,
@@ -11,6 +11,7 @@ let swiper = new Swiper(".mySwiper", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+
       },
 
       breakpoints:{

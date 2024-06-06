@@ -8,9 +8,98 @@
     display: flex;
 }
 
-.swiper-slide {
-    width: 18rem;
-    height: 14rem;
-    background-color: purple;
+.image img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
 }
 
+.image2 img{
+    width: 12rem;
+    height: 15rem;
+    margin-left: 5rem;
+    margin-top: rem;
+
+}
+
+.image3 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.image4 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.image5 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.image6 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.image7 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.image8 img{
+    width: 16rem;
+    height: 15rem;
+    margin-left: 3rem;
+    margin-top: rem;
+
+}
+
+.swiper-slide {
+    width: 10rem;
+    height: 20rem;
+    background-color: rgba(211, 211, 211, 0.518);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper-button-prev {
+    opacity: 0.1;
+    display: flex;
+    margin-left: rem;
+    margin-top: -5rem;
+}
+
+.swiper-button-prev:hover {
+    opacity: 1;
+}
+
+.swiper-button-next {
+    opacity: 0.1;
+    display: flex;
+    margin-top: -5rem;
+    margin-left: -2rem;
+}
+
+.swiper-button-next:hover {
+    opacity: 1;
+}
