@@ -83,7 +83,7 @@
 }
 
 .swiper-button-prev {
-    opacity: 0.1;
+    opacity: 0;
     display: flex;
     margin-left: rem;
     margin-top: -5rem;
@@ -94,7 +94,7 @@
 }
 
 .swiper-button-next {
-    opacity: 0.1;
+    opacity: 0;
     display: flex;
     margin-top: -5rem;
     margin-left: -2rem;
