@@ -1,5 +1,5 @@
 .swiper {
-    width: 90%;
+    width: 80%;
     height: 15rem;
     margin-top: 8rem;
 }
@@ -8,7 +8,7 @@
     display: flex;
 }
 
-.image img{
+.image img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -16,7 +16,7 @@
 
 }
 
-.image2 img{
+.image2 img {
     width: 12rem;
     height: 15rem;
     margin-left: 5rem;
@@ -24,7 +24,7 @@
 
 }
 
-.image3 img{
+.image3 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -32,7 +32,7 @@
 
 }
 
-.image4 img{
+.image4 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -40,7 +40,7 @@
 
 }
 
-.image5 img{
+.image5 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -48,7 +48,7 @@
 
 }
 
-.image6 img{
+.image6 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -56,7 +56,7 @@
 
 }
 
-.image7 img{
+.image7 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -64,7 +64,7 @@
 
 }
 
-.image8 img{
+.image8 img {
     width: 16rem;
     height: 15rem;
     margin-left: 3rem;
@@ -73,7 +73,7 @@
 }
 
 .swiper-slide {
-    width: 10rem;
+    width: 8rem;
     height: 20rem;
     background-color: rgba(211, 211, 211, 0.518);
     box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.7);
@@ -83,8 +83,8 @@
 }
 
 .swiper-button-prev {
-    opacity: 0;
-    display: flex;
+    opacity: 0.1;
+    display: fixed;
     margin-left: rem;
     margin-top: -5rem;
 }
@@ -94,8 +94,8 @@
 }
 
 .swiper-button-next {
-    opacity: 0;
-    display: flex;
+    opacity: 0.1;
+    display: fixed;
     margin-top: -5rem;
     margin-left: -2rem;
 }
@@ -103,3 +103,7 @@
 .swiper-button-next:hover {
     opacity: 1;
 }
+
+
+
+

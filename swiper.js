@@ -1,9 +1,15 @@
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 15,
     loop:true,
     grabCursor:true,
     freeMode: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -14,16 +20,18 @@ let swiper = new Swiper(".mySwiper", {
 
       },
 
+      
+
       breakpoints:{
         0:{
             slidesPerView: 1,
             
         },
-        520:{
+        650:{
             slidesPerView: 2,
             
         },
-        950:{
+        1150:{
             slidesPerView: 3,
             
         },
